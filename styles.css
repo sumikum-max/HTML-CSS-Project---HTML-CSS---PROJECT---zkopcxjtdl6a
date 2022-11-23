@@ -4,12 +4,22 @@
 }
 
 body {
-    font-family: 'open', sans-serif;
+    background-color: rgba(155,89, 182 ,0.7 );
+    font-family: 'open sans', sans-serif;
     display: flex;
     flex-direction:  column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
     margin: 0;
+}
+
+*phone {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #eee;
+    border-radius: 15px;
+    height: 600px;
+    width: 340px;
+
 }
